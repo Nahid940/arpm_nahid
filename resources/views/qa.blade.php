@@ -1,7 +1,7 @@
 <ul style="list-style: none;display: flex;">
     <li style="margin-right: 15px;"><a href="{{route('orders')}}">Task 2</a></li>
-    <li style="margin-right: 15px;"><a href="{{route('collection')}}">Task 3</a></li>
-    <li style="margin-right: 15px;"><a href="{{route('q&a')}}">Task 4</a></li>
+    <li style="margin-right: 15px;"><a href="{{route('collection')}}">Task 4</a></li>
+    <li style="margin-right: 15px;"><a href="{{route('q&a')}}">Task 5</a></li>
 </ul>
 
 
@@ -29,5 +29,5 @@ Answer of C) <br>
 
 -- $model->update() will update the whole model <br>
 
--- $model->updateQuietly() will update the model without checking other dependencies. <br>
+-- $model->updateQuietly() will update the model without dispatching any events. <br>
 
